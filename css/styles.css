@@ -40,11 +40,11 @@ body {
    text-align: center;
 }
 
-.header__image-container{
+/* .header__image-container{
    position: relative;
    z-index: 1;
-}
-.header__image-container::before{
+} */
+/* .header__image-container::before{
      position: absolute;
      top: 0; 
      left: 0;
@@ -57,7 +57,7 @@ body {
    border-radius: 10px;
    content: "";
    z-index: 2;
-}
+} */
 
 .header_title {
    text-transform: uppercase;
