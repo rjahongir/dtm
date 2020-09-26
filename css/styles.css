@@ -41,12 +41,18 @@ body {
 }
 .header_title {
    text-transform: uppercase;
-   font-size: 35px;
+   font-size: 28px;
    font-family: serif;
    font-weight: normal;
    margin: 0;
+   margin-left: 120px;
    margin-right: auto;
 }
+/* .containet_headere{
+   display: flex;
+   align-items: center;
+   justify-content:space-around;
+} */
 .header__image{
    width: 120px;
 }
