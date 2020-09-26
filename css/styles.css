@@ -1,0 +1,164 @@
+html {
+   height: 100%;
+   box-sizing: border-box;
+}
+
+*, *::before, *::after {
+   box-sizing: inherit;
+   scroll-behavior: smooth;
+}
+
+.visually-hidden {
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   border: 0;
+   padding: 0;
+   clip: rect(0 0 0 0);
+   overflow: hidden;
+}
+
+body {
+   font-family: "serif", "Arial", "sans-serif";
+   font-size: 16px;
+   line-height: 1.5;
+   margin: 0;
+   padding: 0;
+}
+
+.container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 1000px;
+   border: 1px solid tomato;
+   margin-top: 100px;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 20px;
+   text-align: center;
+}
+.header_title {
+   text-transform: uppercase;
+   font-size: 35px;
+   font-family: serif;
+   font-weight: normal;
+   margin: 0;
+   margin-right: auto;
+}
+.header__image{
+   width: 120px;
+}
+
+.section__bottom-container {
+   display: block;
+   margin-top: 0;
+   background-color: rgb(174,234,242);
+   border-radius: 11px;
+   transition:  background-color 0.5s ease,box-shadow 0.5s ease;
+}
+.section__bottom-container:hover,
+.section__bottom-container:active {
+   background-color: rgb(156, 231, 241);
+   box-shadow: 0 0 8px 1px rgb(107, 166, 173);
+   border: 1px solid transparent;
+}
+
+.section__bottom-container > h2 {
+   font-size: 20px;
+   font-weight: bold;
+   margin: 0;
+}
+.section__text {
+   font-size: 20px;
+   font-weight: bold;
+   margin: 0;
+}
+.section__text + p {
+   font-size: 20px;
+   font-weight: bold;
+   margin: 0;
+   color: rgb(138, 29, 29);
+}
+
+.container--result{
+   display: block;
+   text-align-last: left;
+}
+
+.bal-result__title {
+   font-family:serif;
+   font-size: 25px;
+   font-weight: bold;
+   margin: 0; 
+}
+
+.bal-result__span {
+   font-size: 24px;
+   font-weight: 300;
+}
+
+.container--result__list {
+   display: flex;
+   align-items: center;
+   
+}
+
+.bal-result__img {
+   width: 750px;
+   height: auto;
+}
+
+.bal-result__list,
+.bal-result__liste {
+   font-family:serif;
+   margin: 0;
+   padding: 0;
+   font-size: 20px;
+   font-weight: bold;
+   list-style-type: none;
+}
+
+.bal-result__list {
+   margin-left: 20px;
+}
+
+.bal-result__liste {
+
+margin-left: 20px;
+}
+
+.bal-result__item {
+   display: flex;
+   align-items: center;
+}
+
+
+
+.bal-result__item::after{
+   display: inline-block;
+   margin-left: 7px;
+   width: 20px;
+height: 20px;
+   background-repeat: no-repeat;
+   background-size:20px 20px ;
+   background-position: bottom left;
+   background-image: url("../img/iconn.png");
+   content: "";
+}
+
+.bal-resultss::after{
+   display: inline-block;
+   margin-left: 7px;
+   width: 18px;
+height: 18px;
+   background-repeat: no-repeat;
+   background-size:18px 18px ;
+   background-position: bottom left;
+   background-image: url("../img/notogri.png");
+   content: "";
+}
+.itemss--true::after{
+   margin-left: 17px;
+}
